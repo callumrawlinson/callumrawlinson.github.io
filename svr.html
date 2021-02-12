@@ -3,8 +3,8 @@
       My awesome server is currently <span class="server-online"></span>!
     </div>
     <script>
-      MinecraftAPI.getServerStatus('s.nerd.nu', {
-        port: 19132 // optional, only if you need a custom port
+      MinecraftAPI.getServerStatus('104.243.34.19', {
+        port: 25589 // optional, only if you need a custom port
       }, function (err, status) {
         if (err) {
           return document.querySelector('.server-status').innerHTML = 'Error loading status';
